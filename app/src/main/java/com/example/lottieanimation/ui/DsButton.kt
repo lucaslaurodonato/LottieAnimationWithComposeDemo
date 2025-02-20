@@ -30,6 +30,13 @@ internal fun DsButton(
         contentPadding = PaddingValues(12.dp),
         colors = ButtonDefaults.buttonColors(containerColor = Color.Blue),
     ) {
+        icon?.let {
+            Image(
+                imageVector = it,
+                contentDescription = "",
+                colorFilter = ColorFilter.tint(Color.White)
+            )
+        }
         text?.let {
             Text(text = it)
         }
