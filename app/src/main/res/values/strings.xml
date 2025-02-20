@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">LottieAnimation</string>
+    <string name="lottie_animation">Lottie Animation</string>
+    <string name="how_many_times">%sX</string>
+</resources>
